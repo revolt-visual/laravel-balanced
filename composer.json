@@ -1,0 +1,24 @@
+{
+    "name": "revolt-visual/laravel-balanced",
+    "description": "",
+    "authors": [
+        {
+            "name": "Patrick Lewis",
+            "email": "patrick@revoltvisual.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "balanced/balanced": "1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "RevoltVisual\\LaravelBalanced\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
