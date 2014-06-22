@@ -1,4 +1,4 @@
-Stripe for Laravel 4
+Balanced Payments for Laravel 4
 ==============
 
 Integrates the Balanced Payments PHP library with Laravel 4 via a ServiceProvider and config extensions.
@@ -31,7 +31,7 @@ Finally, publish the configuration files via `php artisan config:publish revolt-
 
 It is advisable to keep all of your sensitive configuration out of your configuration files. Instead, utilize Laravel's "dot files" to keep them out of source control and making them easily overridable on dev environments.
 
-If you have not setup a "dot file", read Laravel's "[Protecting Sensitive Configuration](http://laravel.com/docs/configuration#protecting-sensitive-configuration) for detailed setup instructions. To quickly get up an running, simply create a `.env.php` file in the same directory as you apps `composer.json` file. Then add your Stripe API credentials to it.
+If you have not setup a "dot file", read Laravel's "[Protecting Sensitive Configuration](http://laravel.com/docs/configuration#protecting-sensitive-configuration) for detailed setup instructions. To quickly get up an running, simply create a `.env.php` file in the same directory as you apps `composer.json` file. Then add your Balanced API credentials to it.
 
 ~~~
 <?php
