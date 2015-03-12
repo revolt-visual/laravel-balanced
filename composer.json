@@ -1,6 +1,11 @@
 {
     "name": "revolt-visual/laravel-balanced",
     "description": "",
+    "keywords": [
+      "laravel",
+      "balanced",
+      "payments"
+    ],
     "authors": [
         {
             "name": "Patrick Lewis",
